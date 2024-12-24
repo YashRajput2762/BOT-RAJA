@@ -17,7 +17,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 react.includes("Prefix") ||
 react.includes(".prefix")) {
 		var msg = {
-				body: `💖𝐑𝐀𝐕𝐈 𝐊𝐔𝐌𝐀𝐑 𝐀𝐍𝐃 𝐗 𝐊𝐈𝐍𝐆💖`,attachment: fs.createReadStream(__dirname + `/ravi/1.jpg`)
+				body: `💖KAMÉENA BRAND💖`,attachment: fs.createReadStream(__dirname + `/ravi/1.jpg`)
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😘", event.messageID, (err) => {}, true)
