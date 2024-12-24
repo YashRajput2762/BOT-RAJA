@@ -5,7 +5,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "KAMEENA", 
 	description: "hihihihi",
-	commandCategory: "no prefix",
+	commandCategory: "+",
 	usages: "owner",
     cooldowns: 5, 
 };
