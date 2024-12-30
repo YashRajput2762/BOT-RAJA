@@ -3,7 +3,7 @@ module.exports.config = {
 	name: "owner",
     version: "1.1.1",
 	hasPermssion: 0,
-	credits: "RAVI KUMAR", 
+	credits: "KAMEENA", 
 	description: "Just Respond",
 	commandCategory: "ravi",
     cooldowns: 5, 
