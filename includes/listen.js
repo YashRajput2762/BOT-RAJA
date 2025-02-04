@@ -63,7 +63,7 @@ module.exports = function ({ api, models }) {
                         const checktt = JSON.parse(fs.readFileSync(checkttDataPath + checkttFile));
                         let storage = [], count = 1;
                         for (const item of checktt.week) {
-                            const userName = await Users.getNameUser(item.id) || 'Krishna Hun Yar';
+                            const userName = await Users.getNameUser(item.id) || 'kameena Hun Yar';
                             const itemToPush = item;
                             itemToPush.name = userName;
                             storage.push(itemToPush);
@@ -140,7 +140,7 @@ module.exports = function ({ api, models }) {
             return logger.loader(global.getText('listen', 'failLoadEnvironment', error), 'error');
         }
     }());
-    logger(`[ ${global.config.PREFIX} ] • ${(!global.config.BOTNAME) ? "" : global.config.BOTNAME}`, "[ KRISHNA ]");
+    logger(`[ ${global.config.PREFIX} ] • ${(!global.config.BOTNAME) ? "" : global.config.BOTNAME}`, "[ KAMEENA ]");
 
     ///////////////////////////////////////////////
     //========= Require all handle need =========//
